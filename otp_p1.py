@@ -9,7 +9,7 @@ def get_email():
 def GENERATE_OTP():
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login('apoorvnv@gmail.com',password='suua ormr pojn hxrm')
+    server.login('apoorvnv@gmail.com',password='xxxx xxxx xxxx xxxx')
     otp=''.join([str(random.randint(0,9))for i in range(n)])
     msg='Hello, your otp is '+str(otp)
     # server.sendmail('apoorvnv@gmail.com','anyscientist2002@gmail.com',msg)
