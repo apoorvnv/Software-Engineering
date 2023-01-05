@@ -5,7 +5,7 @@ import smtplib  # Python module to send E-mail
 def send_otp():
     server = smtplib.SMTP('smtp.gmail.com',587)  #to create gmail server, "587" is port of gmail
     server.starttls()                              # tls security
-    server.login('apoorvnv@gmail.com',password='suua ormr pojn hxrm')
+    server.login('apoorvnv@gmail.com',password='xxxx xxxx xxxx xxxx)
     #n=int(input("Enter value of number of digits to generate OTP: "))  # length of OTP
     otp=''.join([str(random.randint(0,9))for i in range(4)])  # func. call of no. of digits
     msg='Hello, your otp is '+str(otp)
