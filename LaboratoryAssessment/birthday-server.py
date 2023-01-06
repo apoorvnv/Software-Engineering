@@ -46,7 +46,7 @@ def display_data():
 def send_whatsappmessage(data):
     name =data[0]
     number='+91'+data[2]
-    img="C:\\Users\\SHRAVANI\\OneDrive\\Documents\\3rdYEAR\\3rd_year\\SE\\birthday_img.jpg"
+    img="C:\\Users\\apoorv\\OneDrive\\Documents\\birthday_img.jpg"
     pywhatkit.sendwhats_image(number,img,'Hi '+name+'\nMany many happy returns of the day!',15,True,3)
 
 #method for sending image on email
