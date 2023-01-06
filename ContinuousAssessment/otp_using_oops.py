@@ -39,7 +39,7 @@ class generate_otp(unittest.TestCase):
         print("------------------------------------------------------------")
 
     def validation(self):
-        email = "ashwindg2020@gmail.com"
+        email = "apoorvnv@gmail.com"
         check_email = ("@" and "gmail" and "." and "com") in email  # self.receivers_email
         if check_email:
             print("No error in email")
@@ -57,4 +57,4 @@ class generate_otp(unittest.TestCase):
         server.quit()
         print("Email is sent!")
 
-g = generate_otp('name', 'apoorvnv@gmail.com', 4)
+g = generate_otp('name', 'ashwindg2020@gmail.com', 4)
